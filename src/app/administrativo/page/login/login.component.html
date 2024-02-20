@@ -1,0 +1,30 @@
+<mat-card>
+  <button mat-icon-button color="primary" class="mat-18"><mat-icon>arrow_back_ios_new</mat-icon></button>
+  <section class="banner">
+    <img src="?" alt="logo">
+    <span>NOME EMPRESA</span>
+  </section>
+  <section class="formulario">
+    <span>SEJA BEM VINDO!</span>
+    <div class="forms">
+      <h1>Login</h1>
+
+      <div class="inputs">
+        <mat-form-field appearance="fill">
+          <mat-label>Entre com suas Credenciais</mat-label>
+          <input matInput >
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Entre com a Senha</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" maxlength="10">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+      <button mat-flat-button color="primary">Login</button>
+    </div>
+  </section>
+
+</mat-card>

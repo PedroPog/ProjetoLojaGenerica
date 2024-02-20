@@ -1,4 +1,4 @@
-# ProjetoLoja
+# Projeto Loja
 
 Projeto Criado no Angular version 16.0.3||  NodeJS versão 14.15.0 || NPM versão 8.7.0 ||
 tailwindcss 3.4.1 || Angular Material 
