@@ -1,0 +1,39 @@
+.navbar{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  box-shadow: 0 1px 4px 2px #0000001f;
+  margin-bottom: 1%;
+  -webkit-user-select: none;
+  user-select: none;
+  .logo{
+    display: flex;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  ul{
+    display: flex;
+    height: 100%;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 0 1%;
+    gap: 5%;
+    flex-wrap: nowrap;
+  }
+  .acesso{
+    display: flex;
+    height: 100%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
